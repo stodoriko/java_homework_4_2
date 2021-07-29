@@ -3,7 +3,7 @@ public class BodyMassIndex {
 
         BmiService bmiService = new BmiService();
 
-        int index = (int)bmiService.calculate(80,1.72);
+        float index = (float) bmiService.calculate(80,1.72);
 
         System.out.println("Индекс массы тела равен: " + index);
     }
